@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShoeClean</title>
+    <link href="./output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">     
+</head>
+<body>
+    <header class="lg:px-16 px-4 bg-black flex flex-wrap items-center py-4">
+        <div class="flex-1 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-green-500">SHOE<span class="text-white">CLEAN</span></a>
+        </div>
+        <label for="menu-toggle" class="pointer-cursor md:hidden block">
+          <svg class="fill-current text-gray-900"
+            xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+            <title>NavBar</title>
+            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+          </svg>
+        </label>
+        <input class="hidden" type="checkbox" id="menu-toggle" />
+    
+        <div class="hidden md:flex md:items-center md:w-auto w-full" id="menu">
+            <nav>
+                <ul class="md:flex items-center justify-between text-base text-white pt-4 md:pt-0">
+                    <li><a class="md:p-4 py-3 px-0 block hover:text-green-500 transform hover:scale-105 transition duration-300" href="#">HOME</a></li>
+                    <li><a class="md:p-4 py-3 px-0 block md:mb-0 mb-2 hover:text-green-500 transform hover:scale-105 transition duration-300" href="#">GALLERY</a></li>
+                    <li><a class="md:p-4 py-3 px-0 block md:mb-0 mb-2 hover:text-green-500 transform hover:scale-105 transition duration-300" href="#">TESTIMONI</a></li>
+                    <li><a class="md:p-4 py-3 px-0 block hover:text-green-500 transform hover:scale-105 transition duration-300" href="#">SERVICES</a></li>
+                    <li><a class="md:p-4 py-3 px-0 block hover:text-green-500 transform hover:scale-105 transition duration-300" href="#">ABOUT</a></li>
+                    <li><a class="md:p-4 py-3 px-0 block md:mb-0 mb-2 hover:text-green-500 transform hover:scale-105 transition duration-300" href="#">LOGIN</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<div class="h-96 text-white text-center grid bg-cover bg-no-repeat bg-[center_bottom_1rem]" style="background-image: url('img/home/headerbackground.png');">
+    <div class="col-start-1 row-start-1 mx-auto my-auto">
+        <h1 class="text-6xl font-bold text-green-500 flex justify-center">
+            SHOE<span class="text-white mb-5">CLEAN</span>
+        </h1>
+        <p class="text-lg font-semibold justify-center w-[56rem] mb-4">
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        </p>
+        <button type="button" class="text-white bg-green-500 hover:bg-green-800 font-medium rounded-lg text-sm px-8 py-2 me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700">
+            See More
+        </button>
+    </div>
+</div>
+<div class="mt-4 grid grid-cols-2 justify-between items-center ">
+    <div class="mx-3">
+        <div class="h-80 w-[57rem] bg-cover bg-no-repeat bg-center rounded-lg text-white text-2xl font-bold pt-6" style="background-image: url('img/home/promoshoe1.jpg');">
+            <div class="mx-6">
+            Promo Mahasiswa
+            </div>
+        </div>
+    </div>
+    <div class="mx-3">
+        <div class="h-80 w-[57rem] bg-cover bg-no-repeat bg-center rounded-lg text-white text-2xl font-bold pt-6" style="background-image: url('img/home/promoshoe2.jpg');">
+            <div class="mx-6">
+            Promo Member
+            </div>
+        </div>
+    </div>
+</div>
+<div class="mt-10 h-[50rem] text-white bg-black">
+    <div class="grid grid-cols-[50%_auto_auto]">
+        <div class="mt-10 mx-8">
+            <h1 class="text-5xl font-bold">
+                BAGAIMANA KAMI MELAKUKAN PERAWATAN UNTUK SEPATU ANDA?
+            </h1>
+            <P class="mt-5 text-lg text-justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum rerum nobis eaque praesentium, quibusdam iusto. Animi, eaque sint ipsam commodi adipisci recusandae obcaecati, ex fuga vitae distinctio dolorum esse necessitatibus.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam alias ex maiores. Amet ad, incidunt quo, dolores repellat molestias, praesentium eos illum ab a exercitationem dolor! Cum rerum ex eius.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet voluptatibus mollitia praesentium perspiciatis modi placeat ratione animi commodi veniam dolorum magni id nam iste, delectus aliquam dignissimos quasi recusandae quibusdam.
+            </P>
+        </div>
+        <img src="img/home/aboutshoe1.png" class="mt-6 justify-between" height="430" width="430">
+        <img src="img/home/aboutshoe2.png" class="mt-6 justify-between" height="430" width="430">
+    </div>
+
+    <div class= "grid grid-cols-4 text-white mt-20 mx-20 justify-between"> 
+        <div>
+            <img src="img/home/heart.png" class="mb-2" height="150" width="150">
+            <div class="text-2xl font-bold">Best Service</div>
+            <div class="w-1/2">Kami memberikan layanan yang baik, agar customer merasa betah</div>
+        </div>
+        <div>
+            <img src="img/home/heart.png" class="mb-2" height="150" width="150">
+            <div class="text-2xl font-bold">Best Service</div>
+            <div class="w-1/2">Kami memberikan layanan yang baik, agar customer merasa betah</div>
+        </div>
+        <div>
+            <img src="img/home/heart.png" class="mb-2" height="150" width="150">
+            <div class="text-2xl font-bold">Best Service</div>
+            <div class="w-1/2">Kami memberikan layanan yang baik, agar customer merasa betah</div>
+        </div>
+        <div>
+            <img src="img/home/heart.png" class="mb-2" height="150" width="150">
+            <div class="text-2xl font-bold">Best Service</div>
+            <div class="w-1/2">Kami memberikan layanan yang baik, agar customer merasa betah</div>
+        </div>
+    </div>
+</div>
+
+<div class="mt-4 mx-9 ">
+    <h1 class="text-4xl font-bold mb-8">
+        SERVICES
+    </h1>
+    <div class="grid grid-cols-3 gap-3 justify-between items-center mb-8">
+
+        <a href="checkout.html">
+            <div class="max-w-xl rounded overflow-hidden shadow-2xl transform hover:scale-105 transition duration-300">
+                <img class="w-full" src="img/home/card1.png">
+                <div class="px-6 py-4">
+                    <div class="font-semibold text-xl mb-2">Fast Cleaning</div>
+                    <p class="text-base">
+                        Fast cleaning merupakan pencucian instan pada bagian upper dan midsole yang bisa di tunggu selama 15-30 menit.
+                    </p>
+                    <div class="font-semibold text-xl mb-2">Kategori :
+                        <div class="grid grid-cols-[80%_auto]">
+                            <div class="font-normal text-base">Reguler
+                                <div>
+                                    Estimasi Waktu 1 Jam
+                                </div>
+                            </div>
+                            <div class="font-normal text-base">
+                                <div>
+                                    <br>
+                                    Rp30.000
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="h-px my-4 bg-black border-0 dark:bg-black">
+                        <div class="grid grid-cols-[80%_auto]">
+                            <div class="font-normal text-base">Outsole
+                                <div>
+                                    Estimasi Waktu 1 Jam
+                                </div>
+                            </div>
+                            <div class="font-normal text-base">
+                                <div>
+                                    <br>
+                                    Rp50.000
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    
+        <div class="max-w-xl rounded overflow-hidden shadow-2xl transform hover:scale-105 transition duration-300">
+            <img class="w-full" src="img/home/card2.png">
+            <div class="px-6 py-4">
+                <div class="font-semibold text-xl mb-2">Deep Cleaning</div>
+                <p class="text-base">
+                    Perawatan pembersihan sepatu secara detail dan menyeluruh pada seluruh bagian.
+                </p>
+                <div class="font-semibold text-xl mb-2">Kategori :
+                    <div class="grid grid-cols-[80%_auto]">
+                        <div class="font-normal text-base">Reguler
+                            <div>
+                                Estimasi Waktu 3 Hari
+                            </div>
+                        </div>
+                        <div class="font-normal text-base">
+                            <div>
+                                <br>
+                                Rp80.000
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="h-px my-4 bg-black border-0 dark:bg-black">
+                    <div class="grid grid-cols-[80%_auto]">
+                        <div class="font-normal text-base">Premium
+                            <div>
+                                Estimasi Waktu 1 Hari
+                            </div>
+                        </div>
+                        <div class="font-normal text-base">
+                            <div>
+                                <br>
+                                Rp130.000
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="max-w-xl rounded-3xl overflow-hidden shadow-2xl transform hover:scale-105 transition duration-300">
+            <img class="w-full" src="img/home/card3.png">
+            <div class="px-6 py-4">
+                <div class="font-semibold text-xl mb-2">Unyellowing</div>
+                <p class="text-gray-700 text-base">
+                    Perawatan bagian midsole yang menguning untuk menghilangkan warna kuning menjadi seperti semula.
+                </p>
+                <div class="font-semibold text-xl mb-2">Kategori :
+                    <div class="grid grid-cols-[80%_auto]">
+                        <div class="font-normal text-base">Reguler
+                            <div>
+                                Estimasi Waktu 5 Hari
+                            </div>
+                        </div>
+                        <div class="font-normal text-base">
+                            <div>
+                                <br>
+                                Rp80.000
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="h-px my-4 bg-black border-0 dark:bg-black">
+                    <div class="grid grid-cols-[80%_auto]">
+                        <div class="font-normal text-base">Premium
+                            <div>
+                                Estimasi Waktu 3 Hari
+                            </div>
+                        </div>
+                        <div class="font-normal text-base">
+                            <div>
+                                <br>
+                                Rp160.000
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="w-full flex flex-wrap h-[32rem] text-white bg-black">
+    <div class="grid grid-cols-[60%_auto] w-full">
+        <div class="ml-14 mt-20">
+            <h1 class="text-4xl font-bold text-green-500">
+                SHOE<span class="text-white mb-5">CLEAN</span>
+            </h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, consectetur natus! Ipsa nam possimus esse cumque, provident ullam labore quam! Atque velit est sequi aspernatur. Nisi magnam molestiae vitae ipsum.
+            </p>
+            <h2 class="text-2xl font-semibold mt-10">
+                Customer Service
+            </h2>
+            <p>081227585129</p>
+            <h3 class="text-2xl font-semibold mt-6">
+                Layanan Pickup
+            </h3>
+            <p>084757838247</p>
+            <h4 class="text-2xl font-semibold mt-6">
+                Profil Karyawan
+            </h4>
+        </div>
+        <div class="mt-48 ml-16">
+            <h1 class="text-2xl font-semibold">
+                Info Franchise
+            </h1>
+            <p>081227585129</p>
+            <h2 class="text-2xl font-semibold mt-6">
+                Lokasi Mitra Piyungan
+            </h2>
+            <p>Jl.Piyungan Km 02</p>
+            <h3 class="text-2xl font-semibold mt-6">
+                Lokasi Mitra Gejayan
+            </h3>
+            <p>Jl.Affandi G.01</p>
+        </div>
+    </div>
+    <div class="w-full flex justify-center">
+        <hr class="h-px w-full my-8 bg-white border-0 dark:bg-white">
+    </div>
+    <div class="text-white ml-8 -my-5">
+        Copyright @ 2024 ShoeClean
+    </div>
+</footer>
+</body>
+</html>

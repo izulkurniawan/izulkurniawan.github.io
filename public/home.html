@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webyjulz</title>
+    <link href="./styles.css" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="/src/home.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="flex flex-wrap place-items-center" id="navbar">
+      <section class="relative mx-auto">
+        <nav class="flex justify-between bg-black text-white w-screen" style="height: 100px;">
+          <div class="px-5 xl:px-12 py-6 flex w-full items-center">
+            <a href="home.html" class="flex-wrap hover:opacity-70">
+                <img src="img/navbar/Logo-removebg-preview.png" style="max-height: 220px; width: auto; object-fit: contain;">
+            </a>
+            <ul class="hidden md:flex px-4 mx-auto font-light font-heading space-x-12 text-xl">
+              <li><a class="hover:text-gray-400 transition duration-300" href="about.html">about</a></li>
+              <li><a class="hover:text-gray-400 transition duration-300" href="portofolio.html">portofolio</a></li>
+              <li><a class="hover:text-gray-400 transition duration-300" href="contact.html">contact</a></li>
+            </ul>
+            <div class="hidden xl:flex items-center space-x-5">
+              <a class="flex items-center hover:opacity-70 transition duration-300" href="https://www.instagram.com/izulkurniawan/profilecard/?igsh=djl0dDVxdDE5d2x6" target="_blank">
+                <img src="img/navbar/instagram-white-icon.png" class="flex-wrap" style="max-height: 30px; width: auto; object-fit: contain;">
+              </a>
+              <a class="flex items-center hover:opacity-70" href="https://wa.me/qr/BBWFWHJAF4KFN1" target="_blank">
+                <img src="img/navbar/whatsapp-128.png" class="flex-wrap" style="max-height: 30px; width: auto; object-fit: contain;">
+              </a>
+              <a class="flex items-center hover:opacity-70" href="https://www.tiktok.com/@milkymatcha4?_t=8qfeRJzRkGN&_r=1" target="_blank">
+                <img src="img/navbar/tiktok-128.png" class="flex-wrap" style="max-height: 30px; width: auto; object-fit: contain;">
+              </a>
+              <a class="flex items-center hover:opacity-70" href="https://www.youtube.com/@ijulzzzmatcha" target="_blank">
+                <img src="img/navbar/youtube-app-white-icon.png" class="flex-wrap" style="max-height: 30px; width: auto; object-fit: contain;">
+              </a>
+            </div>
+          </div>
+        </nav>    
+      </section>
+    </div>
+  </header> 
+
+<section class="bg-gray-100 border-b-4 border-b-gray-300">
+    <div class="grid grid-cols-[auto_30%_auto] items-center  gap-10"> 
+
+        <div class="text-center" id="dataAnText">
+            <h1 class="text-6xl text-gray-800 font-permanentmarker">&lt;data analyst/&gt;</h1>
+            <p class="mt-5 text-2xl text-gray-600 font-shadowintolight">
+                Data-driven expert turning raw information into impactful insights.
+            </p>
+        </div>
+        
+        <div class="flex justify-center items-center">
+          <img src="img/home/mypicture.png" alt="Designer/Coder Image" class="h-[700px] w-full relative" id="imageReveal">
+        </div>
+        
+        <div class="text-center" id="coderText">
+            <h1 class="text-6xl text-gray-800 font-permanentmarker">&lt;coder/&gt;</h1>
+            <p class="mt-5 text-2xl text-gray-600 font-shadowintolight">
+                Front end developer who writes clean, elegant and efficient code.
+            </p>
+        </div>
+    </div>    
+</section>
+
+<section class="mt-10">
+    <div class="text-center my-8">
+        <div class="flex items-center justify-center mb-4">
+            <div class="flex-grow border-t border-gray-300"></div>
+            <span class="px-4 text-2xl font-shadowintolight text-gray-600">my latest works</span>
+            <div class="flex-grow border-t border-gray-300"></div>
+        </div>
+    
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4">
+            <div class="border border-gray-200 rounded-lg shadow-lg p-4" id="cards">
+                <img src="img/home/shoeclean.png" alt="" class="rounded-md mb-4 h-96 w-full object-cover">
+                <h2 class="text-lg font-semibold">My shoe cleaning website</h2>
+                <p class="text-gray-500">Exam Project</p>
+            </div>
+        
+            <div class="border border-gray-200 rounded-lg shadow-lg p-4" id="cards">
+                <img src="img/home/bikerental.png" alt="" class="rounded-md mb-4 h-96 w-full object-cover">
+                <h2 class="text-lg font-semibold">Bike rental app</h2>
+                <p class="text-gray-500">Design system</p>
+            </div>
+        
+            <div class="border border-gray-200 rounded-lg shadow-lg p-4" id="cards">
+                <img src="img/home/image6-1.png" alt="Interior Design News" class="rounded-md mb-4 h-96 w-full object-cover">
+                <h2 class="text-lg font-semibold">Youtube Data Preprocessing</h2>
+                <p class="text-gray-500">Work</p>
+            </div>
+        </div>
+        
+    </div>    
+</section>
+
+<footer>
+  <div class="flex flex-wrap" id="footer">
+    <section class="relative mx-auto">
+      <nav class="flex justify-between bg-gray-100 text-gray-600 w-screen border-t-2 border-gray-300 shadow-lg"style="height: 60px;">
+        <div class="px-5 xl:px-12 py-6 flex w-full items-center">
+          <div class="ml-96 hover:text-gray-800 transition duration-300" href="#">
+            © 2024 Webyjulz 
+          </div>
+          <ul class="hidden md:flex px-4 mx-auto font-light font-heading space-x-12 text-xl">
+            <li><a class="hover:text-gray-800 transition duration-300" href="home.html">home</a></li>
+            <li><a class="hover:text-gray-800 transition duration-300" href="about.html">about</a></li>
+            <li><a class="hover:text-gray-800 transition duration-300" href="portofolio.html">portofolio</a></li>
+            <li><a class="hover:text-gray-800 transition duration-300" href="contact.html">contact</a></li>
+          </ul>
+        </div>
+      </nav>    
+    </section>
+  </div>
+</footer>
+
+</body>
+
+</html>
